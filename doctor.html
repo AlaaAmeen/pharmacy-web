@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our Data</title>
+    <link rel="stylesheet" type="text/css" href="css/file.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<link rel="shortcut icon" href="images/pic.jpg" type="x-icon">
+	
+</head>
+<body>
+	<header class="main-header">
+		<div>
+				<img src="logo.png" class="logo">
+				<h1>
+					Health First Pharmacy
+				</h1>
+				<nav class="header-nav">
+					<ul>
+							<a href="alaa.html"><li>Home</li></a>
+							<a href="about.html" ><li>About Us</li></a>
+							<li>Products</li>
+							<a href="login.html"><li>DB</li></a>
+						</ul>
+					</nav>
+		</div>
+		
+	</header>
+	<main>
+        <section>
+            <section class="add-search">
+                    <button type="button" class="btn btn-primary">Add new Doctor</button>
+                    <div class="input-group" style="width:30%;border:2px solid;border-radius:15px;padding:3px;">
+                            <input class="form-control"
+                                   placeholder="search doctor by Id">
+                            <div class="input-group-addon" ><i class="fa fa-search"></i></div>
+                          </div>
+
+            </section>
+			<h2 style="margin: 10px;margin-top:20px">Doctor</h2>
+            <table class="table table-hover" border="2px" style="margin:10px auto;width:90%; margin-top:30px;">
+                <thead>
+                        <tr>
+                                <th class="key">Doctor_Id</th>
+                                <th>First_Name</th>
+                                <th>Middle_Name</th>
+                                <th>Last_Name</th>
+                                <th>Years_Experience</th>
+                                <th>Speciality</th>
+								<th>Actions</th>
+                            </tr>
+                </thead>
+                <tbody>
+                        <tr class="table-primary">
+                                <td>125</td>
+                                <td>Ibrahim</td>
+                                <td>Abd Enaby</td>
+                                <td>Shaaban</td>
+                                <td>12 years</td>
+								<td>Pediatrics</td>
+                                <td>
+                                        <button type="button" class="btn btn-success">Edit</button>
+                                        <button type="button" class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr class="table-success">
+                                    <td>126</td>
+                                    <td>Azza</td>
+                                    <td>Hassan</td>
+                                    <td>Ahmed</td>
+                                    <td>20 years</td>
+									<td>Leather</td>
+                                    <td>
+                                            <button type="button" class="btn btn-success">Edit</button>
+                                            <button type="button" class="btn btn-danger">Delete</button>
+                                    </td>
+                                </tr>
+                                <tr class="table-danger">
+                                        <td>127</td>
+                                        <td>Sara</td>
+                                        <td>Mohammed</td>
+                                        <td>ElKouly</td>
+                                        <td>10 years</td>
+										<td>Public</td>
+                                        <td>
+                                                <button type="button" class="btn btn-success">Edit</button>
+                                                <button type="button" class="btn btn-danger">Delete</button>
+                                        </td>
+                                    </tr>
+                                    
+
+                </tbody>
+            </table>
+        </section>
+			<a href="tables.html"> <button style="margin: 20px;padding: 10px" >Back</button></a>
+
+	</main>
+
+	
+
+</body>
+</html>

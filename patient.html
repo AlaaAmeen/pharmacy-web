@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our Data</title>
+    <link rel="stylesheet" type="text/css" href="css/file.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<link rel="shortcut icon" href="images/pic.jpg" type="x-icon">
+	
+</head>
+<body>
+	<header class="main-header">
+		<div>
+				<img src="logo.png" class="logo">
+				<h1>
+					Health First Pharmacy
+				</h1>
+				<nav class="header-nav">
+						<ul>
+							<a href="alaa.html"><li>Home</li></a>
+							<a href="about.html" ><li>About Us</li></a>
+							<li>Products</li>
+							<a href="login.html"><li>DB</li></a>
+						</ul>
+					</nav>
+		</div>
+	</header>
+	<main>
+        <section>
+            <section class="add-search">
+                    <button type="button" class="btn btn-primary">Add new Patient</button>
+                    <div class="input-group" style="width:30%;border:2px solid;border-radius:15px;padding:3px;">
+                            <input class="form-control"
+                                   placeholder="search patient by SSN">
+                            <div class="input-group-addon" ><i class="fa fa-search"></i></div>
+                          </div>
+
+            </section>
+			 <h2 style="margin: 10px;margin-top:20px">Patient</h2>
+            <table class="table table-hover" border="2px" style="margin:10px auto;width:90%; margin-top:30px">
+                <thead>
+                        <tr>
+                                <th class="key">SSN</th>
+                                <th>First_Name</th>
+                                <th>Middle_Name</th>
+                                <th>Last_Name</th>
+                                <th>Address</th>
+                                <th>Drug_Sensitivity</th>
+								<th>Date_Of_Birth</th>
+							    <th>Gender</th>
+								<th>Actions</th>
+
+
+                            </tr>
+                </thead>
+                <tbody>
+                        <tr class="table-primary">
+                                <td>29204076100404</td>
+                                <td>Mohammed</td>
+                                <td>khalid</td>
+                                <td>elkholy</td>
+                                <td>5th khalid Ben Al Waleed</td>
+								<td>asthma</td>
+								<td>7/4/1992</td>
+								<td>Male</td>
+                                <td>
+                                        <button type="button" class="btn btn-success">Edit</button>
+                                        <button type="button" class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr class="table-success">
+                                    <td>26812099586004</td>
+                                    <td>Sara</td>
+                                    <td>Salem</td>
+                                    <td>Elsheikh</td>  
+									<td>4th Omar Ben Abd AlAzeez</td>
+									<td>asthma</td>
+									<td>9/12/1986</td>
+									<td>Famale</td>
+									
+                                    <td>
+                                            <button type="button" class="btn btn-success">Edit</button>
+                                            <button type="button" class="btn btn-danger">Delete</button>
+                                    </td>
+                                </tr>
+                                <tr class="table-danger">
+                                        <td>277301765434</td>
+                                        <td>Fares</td>
+                                        <td>Tarik</td>
+                                        <td>Aldamaty</td>
+										<td>Hassan Radwan</td>
+										<td>asthma</td>
+                                        <td>17/3/1977</td>
+										<td>Male</td>
+                                        <td>
+                                                <button type="button" class="btn btn-success">Edit</button>
+                                                <button type="button" class="btn btn-danger">Delete</button>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-warning">
+                                            <td>291020986534</td>
+                                            <td>Omar</td>
+                                            <td>Ahmed</td>
+                                            <td>Elmoqaddim</td>
+											<td>Hassaan Ben Thabit</td>
+											<td>asthma</td>
+                                            <td>9/2/1991</td>
+											<td>Male</td>
+                                            <td>
+                                                    <button type="button" class="btn btn-success">Edit</button>
+                                                    <button type="button" class="btn btn-danger">Delete</button>
+                                            </td>
+                                        </tr>
+
+                </tbody>
+            </table>
+        </section>
+        <a href="tables.html"> <button style="margin: 20px;padding: 10px" >Back</button></a>
+	</main>
+
+	
+
+</body>
+</html>

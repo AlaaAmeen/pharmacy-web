@@ -1,0 +1,120 @@
+*{
+	padding: 0px ;
+	margin: 0px ;
+	box-sizing: border-box; 
+	transition: ease-in-out all 1s ;
+	perspective: 600px;
+	
+
+}
+.key{
+	text-decoration: underline
+}
+/*body {
+	background-image: url('logo2.jpg');
+	background-size: contain ;
+}*/
+.main-header{
+	background-color: #3b557c ;
+	padding: 5px ;
+	margin-bottom: 10px ;
+	transition: ease-in-out all 1s ;
+	height: 110px;
+	
+
+
+}
+.main-header div {
+	display: flex;
+	flex-flow: row wrap ;
+}
+.logo{
+	width: 100px ;
+	height: 100px ;
+}
+.main-header div h1{
+	padding: 10px ;
+	margin: 10px ;
+	margin-top: 20px ;
+	font-size: 25px ;
+	font-weight: bold ;
+	font-style: italic;
+	font-family: monospace fantasy;
+	color: white ;
+}
+
+/*.main-header:hover {
+	opacity: .8 ;
+}*/
+
+
+.header-nav ul {
+	list-style-type: none;
+
+}
+
+.header-nav {
+	margin-left: 450px ;
+	margin-top: 30px;
+}
+
+.header-nav ul li {
+	font-size : 25px;
+	font-family: cursive ;
+	color: white ;
+	margin: 15px;
+	display: inline-block ;
+	border: 2px solid white ;
+	border-radius: 15px ;
+	padding: 5px ;
+	transition: ease-in-out all .7s ;
+}
+
+.header-nav ul li:hover {
+	color: red ;
+	margin: 15px;
+	display: inline-block ;
+	border: 2px solid white ;
+	transform: scale(1.2);
+}
+
+.footer {
+	background-color:rgba(0,32,96,.5 ) ;
+	padding: 10px ;
+	margin: 10px;
+	margin-bottom: 0px;
+	transition: ease-in-out all 1s ;
+	position: relative;
+	top:800px;
+}
+
+.aside {
+	width: 35% ;
+	
+	padding : 6px ;
+	border-radius: 15px ;
+}
+.list {
+	height: 300px ;
+	overflow-y: scroll ;
+
+}
+.aside h2 {
+	text-align: center ;
+	padding: 10px ;
+	background-color:teal ;
+	font-size: 20px ;
+	font-family: fantasy ;
+	margin-bottom: 5px ;
+	border-radius: 15px ;
+	color: white ;
+}
+
+.add-search {
+	display: flex ;
+	flex: row wrap ;
+	justify-content: space-around ;
+	margin-bottom: 10px ;
+}
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our Data</title>
+    <link rel="stylesheet" type="text/css" href="css/file.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<link rel="shortcut icon" href="images/pic.jpg" type="x-icon">
+	
+</head>
+<body>
+	<header class="main-header">
+		<div>
+				<img src="logo.png" class="logo">
+				<h1>
+					Health First Pharmacy
+				</h1>
+				<nav class="header-nav">
+					<ul>
+							<a href="alaa.html"><li>Home</li></a>
+							<a href="about.html" ><li>About Us</li></a>
+							<li>Products</li>
+							<a href="login.html"><li>DB</li></a>
+						</ul>
+					</nav>
+		</div>
+		
+	</header>
+	<main>
+        <section>
+            <section class="add-search">
+                    <button type="button" class="btn btn-primary">Add new medicine</button>
+                    <div class="input-group" style="width:30%;border:2px solid;border-radius:15px;padding:3px;">
+                            <input class="form-control"
+                                   placeholder="search medicine by Id">
+                            <div class="input-group-addon" ><i class="fa fa-search"></i></div>
+                          </div>
+
+            </section>
+			 <h2 style="margin: 10px;margin-top:20px">Medicine</h2>
+            <table class="table table-hover" border="2px" style="margin:10px auto;width:90%; margin-top:30px;">
+                <thead>
+                        <tr>
+                                <th class="key">Medicine_Id</th>
+                                <th>Quantity</th>
+                                <th>Production_Date</th>
+                                <th>Expiry_Date</th>
+                                <th>Medicine_Trade_Name</th>
+                                <th>Actions</th>
+                            </tr>
+                </thead>
+                <tbody>
+                        <tr class="table-primary">
+                                <td>1</td>
+                                <td>50</td>
+                                <td>6/11/2016</td>
+                                <td>7/8/2018</td>
+                                <td>Panadol</td>
+                                <td>
+                                        <button type="button" class="btn btn-success">Edit</button>
+                                        <button type="button" class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr class="table-success">
+                                    <td>2</td>
+                                    <td>40</td>
+                                    <td>28/7/1996</td>
+                                    <td>8/8/2007</td>
+                                    <td>brofen</td>
+                                    <td>
+                                            <button type="button" class="btn btn-success">Edit</button>
+                                            <button type="button" class="btn btn-danger">Delete</button>
+                                    </td>
+                                </tr>
+                                <tr class="table-danger">
+                                        <td>3</td>
+                                        <td>30</td>
+                                        <td>30/6/1988</td>
+                                        <td>8/8/2004</td>
+                                        <td>abymool</td>
+                                        <td>
+                                                <button type="button" class="btn btn-success">Edit</button>
+                                                <button type="button" class="btn btn-danger">Delete</button>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-warning">
+                                            <td>4</td>
+                                            <td>20</td>
+                                            <td>5/5/2005</td>
+                                            <td>8/8/2008</td>
+                                            <td>congestal</td>
+                                            <td>
+                                                    <button type="button" class="btn btn-success">Edit</button>
+                                                    <button type="button" class="btn btn-danger">Delete</button>
+                                            </td>
+                                        </tr>
+
+                </tbody>
+            </table>
+        </section>
+           <a href="tables.html"> <button style="margin: 20px;padding: 10px" >Back</button></a>
+	</main>
+
+	
+
+</body>
+</html>
